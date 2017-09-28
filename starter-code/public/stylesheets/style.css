@@ -1,8 +1,53 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 40px "Orbitron", sans-serif;
+  text-align: center;
+  margin-top: 8%;
+  color: #3333ff;
+  background-image: url("http://www.action-drones.fr/wp-content/uploads/contact-action-drones.jpg");
 }
 
 a {
-  color: #00B7FF;
+  color: #1aff1a;
+}
+
+p {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+button {
+  width: 30%;
+  font-size: 30px;
+  background-color: white;
+  padding: 1%;
+}
+
+button a {
+  color: red;
+  text-decoration: none;
+  font-family: "Orbitron", sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+}
+li {
+  font-size: 20px;
+  padding-top: 2%;
+}
+
+ul {
+  text-align: left;
+  margin-left: 20%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+input {
+  height: 40px;
 }

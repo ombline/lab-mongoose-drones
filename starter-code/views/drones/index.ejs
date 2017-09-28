@@ -1,0 +1,14 @@
+
+<h2>Drones: </h2>
+
+<ul>
+  <% drones.forEach((drone) => { %>
+    <li>
+      Name of the drone: <%= drone.droneName %>
+      Propellers: <%= drone.propellers %>
+      Maximum Speed: <%= drone.maxSpeed %>
+    </li>
+  <%  }) %>
+</ul>
+
+<button type="submit"><a href="drones/new">Create new drone</a></button>
